@@ -12,6 +12,9 @@ export default function NavBar() {
           <div className="navbar-nav">
             <a className="nav-link" href="/">Home</a>
             <a className="nav-link" href="/posts">Show all</a>
+            <a className="nav-link" href="/fetch">Fetch page</a>
+            <a className="nav-link" href="/state">useState hook</a>
+            <a className="nav-link" href="/group">Input Group</a>
           </div>
         </div>
       </div>

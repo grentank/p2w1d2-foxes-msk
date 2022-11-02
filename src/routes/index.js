@@ -1,5 +1,5 @@
-// export { default } from './indexRouter';
-// export { default } from './postsRouter';
+// export { indexRouter: default } from './indexRouter';
+// export { postsRouter: default } from './postsRouter';
 
 import indexRouter from './indexRouter';
 import postsRouter from './postsRouter';

@@ -11,9 +11,11 @@ router.route('/')
     const initState = { allPosts };
     res.render('Layout', initState);
   })
-  .post(async (req, res) => {
+  .post(async (req, res) => { // METHOD: POST, url: /posts
+    // console.log('Req.Body: ', req.body);
     await Post.create(req.body);
-    res.redirect('/posts');
+    // res.redirect('/posts');
+    res.sendStatus(200);
   });
 
 router.get('/:id', async (req, res) => {
